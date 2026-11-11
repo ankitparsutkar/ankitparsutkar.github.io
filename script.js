@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const roles = ['Digital Marketer', 'YouTube SEO Specialist', 'Content Strategist', 'Video Editor', 'Graphic Designer'];
+  const roles = ['Organic Marketer', 'YouTube SEO Specialist', 'Content Strategist', 'Performance Marketer', 'Ad Creative Specialist'];
   let roleIndex = 0, charIndex = 0, deleting = false;
   const typewriter = document.getElementById('typewriter');
   function typeEffect() {
