@@ -2629,7 +2629,7 @@ img { max-width: 100%; }
   width: 100%;
   height: auto;
   flex: 0 0 auto;
-  aspect-ratio: 1.28 / 1;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
   border-radius: 1rem;
