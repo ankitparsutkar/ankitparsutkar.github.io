@@ -132,3 +132,14 @@ async function handleResumeSubmit(event) {
     downloadResume();
   }
 }
+
+function scrollYoutubeChannels(direction) {
+  const track = document.getElementById('youtube-channel-track');
+  const firstCard = track?.querySelector('.youtube-channel-card');
+  if (!track || !firstCard) return;
+  const styles = window.getComputedStyle(track);
+  const gap = parseFloat(styles.columnGap || styles.gap) || 0;
+  const distance = firstCard.getBoundingClientRect().width + gap;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  track.scrollBy({ left: Number(direction) * distance, behavior: reduceMotion ? 'auto' : 'smooth' });
+}
