@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ankitparsutkar.github.io/sitemap.xml
