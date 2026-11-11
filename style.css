@@ -2618,14 +2618,14 @@ img { max-width: 100%; }
 }
 
 /* Match the supplied 1hcv reference: image first, centered channel details below. */
-.featured-channel-card {
+.youtube-channel-card {
   flex-direction: column;
   align-items: center;
   align-self: start;
   gap: 1rem;
   text-align: center;
 }
-.featured-channel-card > img {
+.youtube-channel-card > img {
   width: 100%;
   height: auto;
   flex: 0 0 auto;
@@ -2634,14 +2634,14 @@ img { max-width: 100%; }
   object-position: center top;
   border-radius: 1rem;
 }
-.featured-channel-card > div { width: 100%; }
-.featured-channel-card h4 {
+.youtube-channel-card > div { width: 100%; }
+.youtube-channel-card h4 {
   width: 100%;
   margin: 0;
   text-align: center;
   overflow-wrap: anywhere;
 }
-.featured-channel-card p {
+.youtube-channel-card p {
   margin: 0.5rem 0 0;
   text-align: center;
 }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">YouTube channel demo thumbnail</title>
+  <desc id="desc">A neutral square video-play placeholder in a dark and orange palette.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211b1a"/>
+      <stop offset="1" stop-color="#0e1116"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="60%">
+      <stop offset="0" stop-color="#ff7147" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#ff7147" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="32" fill="url(#background)"/>
+  <rect width="400" height="400" rx="32" fill="url(#glow)"/>
+  <circle cx="200" cy="200" r="132" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+  <rect x="104" y="137" width="192" height="126" rx="36" fill="#ff5a3c"/>
+  <path d="M180 171v58l48-29z" fill="#fff"/>
+  <rect x="105" y="294" width="190" height="10" rx="5" fill="#d9d3d0" fill-opacity=".38"/>
+  <rect x="137" y="318" width="126" height="8" rx="4" fill="#d9d3d0" fill-opacity=".2"/>
+</svg>
