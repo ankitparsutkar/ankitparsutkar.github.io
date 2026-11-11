@@ -2657,11 +2657,7 @@ img { max-width: 100%; }
 }
 .youtube-carousel-heading { min-width: 0; }
 .youtube-carousel-heading .sub-work-title { margin: 0 0 .3rem; }
-.youtube-carousel-sort-note {
-  margin: 0;
-  color: #aaa;
-  font-size: .85rem;
-}
+
 .youtube-carousel-controls {
   display: flex;
   align-items: center;
