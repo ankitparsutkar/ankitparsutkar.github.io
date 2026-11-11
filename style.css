@@ -2573,13 +2573,3 @@ img { max-width: 100%; }
   .skills-wrapper { grid-template-columns: 1fr; }
   .work-tab { white-space: normal; line-height: 1.25; }
 }
-
-.hero-subheadline .comb-icon {
-  display: inline-block;
-  width: 1.15em;
-  height: 0.95em;
-  margin-right: 0.28em;
-  vertical-align: -0.12em;
-  color: #ff8a3d;
-  flex: 0 0 auto;
-}
