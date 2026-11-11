@@ -1,14 +1,14 @@
 # 🎬 Ankit Parsutkar - Personal Portfolio Website
-> **Comb-Shaped Marketer** | Performance Marketing • Organic Growth • Analytics • Automation
+> **Founder of omiii.studio** | Performance Marketer • Ad Creative Specialist • Organic Marketer
 
-A responsive static portfolio built with HTML5, CSS3 and JavaScript, presenting Ankit's resume-backed experience, marketing skills, selected results, education and contact details.
+A modern, responsive, high-performance portfolio website built with pure HTML5, CSS3, and JavaScript. Designed specifically for creative performance marketers and ad creative specialists to attract high-paying clients, brand deals, and creator collaborations.
 
 ---
 
 ## 🚀 Live Preview Locally (तुमच्या कॉम्प्युटरवर कसे बघायचे)
 
 1. तुमच्या कॉम्प्युटरवर या फोल्डरमध्ये जा:
-   `portfolio project folder`
+   `C:\Users\lenovo\.gemini\antigravity\scratch\omkar-portfolio`
 2. **`index.html`** फाईलवर डबल क्लिक (Double Click) करा.
 3. तुमची वेबसाइट लगेच तुमच्या आवडत्या ब्राउझरमध्ये (Chrome, Edge, Firefox) उघडेल!
 
@@ -54,9 +54,8 @@ A responsive static portfolio built with HTML5, CSS3 and JavaScript, presenting 
 ## 📁 फाईल स्ट्रक्चर (File Structure)
 
 ```text
-ankit-parsutkar-portfolio/
+omkar-portfolio/
 │
-├── assets/         # Hero photo and downloadable Ankit Parsutkar resume
 ├── index.html      # संपूर्ण वेबसाइटचे स्ट्रक्चर, सेक्शन्स, माहिती आणि लिंक्स
 ├── style.css       # डार्क थीम, अॅनिमेशन्स, ग्लॅसमॉर्फिझम आणि रिस्पॉन्सिव्ह डिझाइन
 ├── script.js       # टाईपरायटर इफेक्ट, प्रोजेक्ट फिल्टरिंग, व्हॉट्सअ‍ॅप फॉर्म आणि मॉडेल्स
@@ -66,10 +65,10 @@ ankit-parsutkar-portfolio/
 ---
 
 ## 🛠️ भविष्यात माहिती अपडेट कशी करायची?
-- **प्रोफाइल आणि करिअर माहिती अपडेट करण्यासाठी:** `index.html` मधील About, Professional Experience, Core Skills आणि My Work sections बदला.
+- **नवीन प्रोजेक्ट्स किंवा व्हिडिओ लिंक जोडण्यासाठी:** `index.html` उघडा आणि `<div class="portfolio-item">` सेक्शन्स मध्ये नवीन व्हिडिओ किंवा डिझाइन लिंक्स जोडा.
 - **सोशल मीडिया लिंक्स बदलण्यासाठी:** `index.html` मध्ये शोधून (Ctrl + F) तुमच्या नव्या लिंक्स टाका.
 
 ---
 
-**Developed for Ankit Parsutkar**
+**Developed for Ankit Parsutkar (@omiii.studio)**
 *All Rights Reserved © 2026*
