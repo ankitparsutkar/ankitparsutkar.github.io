@@ -2549,10 +2549,10 @@ img { max-width: 100%; }
   .nav-container, .footer-container { width: 100%; max-width: 1200px; margin-left: auto; margin-right: auto; }
 }
 
-/* User-requested vertical alignment for the three Core Skills cards */
+/* Four Core Skills cards per row on desktop; responsive columns below. */
 .skills-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: stretch;
   gap: 1rem;
 }
