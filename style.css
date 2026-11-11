@@ -2573,3 +2573,46 @@ img { max-width: 100%; }
   .skills-wrapper { grid-template-columns: 1fr; }
   .work-tab { white-space: normal; line-height: 1.25; }
 }
+
+/* Screenshot reference: warm orange skill cards with stacked pill rows. */
+.skills-wrapper {
+  gap: 0.9rem;
+}
+.skills-wrapper .skill-category {
+  padding: 1.25rem;
+  border: 1px solid rgba(255, 119, 31, 0.58);
+  border-radius: 1.35rem;
+  background: radial-gradient(ellipse at 0% 0%, rgba(255, 115, 23, 0.12), transparent 54%), linear-gradient(145deg, #11100f 0%, #080808 75%);
+  box-shadow: inset 0 1px 0 rgba(255, 183, 117, 0.12), 0 8px 22px rgba(0, 0, 0, 0.24);
+}
+.skills-wrapper .skill-category:hover,
+.skills-wrapper .skill-category.primary-category {
+  border-color: rgba(255, 132, 52, 0.78);
+  background: radial-gradient(ellipse at 0% 0%, rgba(255, 115, 23, 0.16), transparent 58%), linear-gradient(145deg, #141210 0%, #080808 76%);
+  box-shadow: inset 0 1px 0 rgba(255, 183, 117, 0.15), 0 12px 28px rgba(255, 100, 18, 0.10);
+}
+.skills-wrapper .category-header { align-items: center; gap: 0.8rem; min-height: 4.2rem; margin-bottom: 0.85rem; }
+.skills-wrapper .category-icon-box {
+  width: 3.5rem; height: 3.5rem; flex: 0 0 3.5rem; border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 1rem; background: linear-gradient(145deg, #27221e, #11100f); color: #ff791f; font-size: 1.55rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 3px 12px rgba(255, 108, 20, 0.08);
+}
+.skills-wrapper .category-title { margin: 0; color: #f7f4f1; font-size: clamp(1rem, 1.1vw, 1.28rem); font-weight: 750; line-height: 1.18; overflow-wrap: anywhere; }
+.skills-wrapper .skill-tags { display: flex; flex-direction: column; align-items: stretch; gap: 0.45rem; }
+.skills-wrapper .skill-pill {
+  width: 100%; min-height: 2.55rem; justify-content: flex-start; gap: 0.65rem; padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.10); border-radius: 1.15rem;
+  background: linear-gradient(100deg, rgba(255, 137, 45, 0.085), rgba(255, 255, 255, 0.045) 62%);
+  color: #f1efed; font-size: 0.88rem; font-weight: 500; line-height: 1.22; overflow-wrap: anywhere;
+  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+}
+.skills-wrapper .skill-pill:hover {
+  border-color: rgba(255, 131, 46, 0.55); background: linear-gradient(100deg, rgba(255, 137, 45, 0.17), rgba(255, 255, 255, 0.065) 68%);
+  color: #fff; transform: translateY(-1px);
+}
+.skills-wrapper .skill-dot { width: 0.55rem; height: 0.55rem; flex: 0 0 0.55rem; background: linear-gradient(135deg, #ffb02e, #ff6514); box-shadow: 0 0 9px rgba(255, 109, 20, 0.34); }
+@media (max-width: 700px) {
+  .skills-wrapper .skill-category { padding: 1.1rem; }
+  .skills-wrapper .category-title { font-size: 1.12rem; }
+  .skills-wrapper .skill-pill { font-size: 0.94rem; }
+}
