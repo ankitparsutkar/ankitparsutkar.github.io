@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const roles = ['Organic Marketer', 'YouTube SEO Specialist', 'Content Strategist', 'Performance Marketer', 'Ad Creative Specialist'];
+  const roles = ['Comb-Shaped Marketer', 'Performance Marketing Specialist', 'Organic Growth Marketer', 'Marketing Automation Specialist'];
   let roleIndex = 0, charIndex = 0, deleting = false;
   const typewriter = document.getElementById('typewriter');
   function typeEffect() {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function openResumeModal() { const modal = document.getElementById('resume-modal'); if (modal) { modal.classList.add('active'); modal.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; document.getElementById('resume-name')?.focus(); } }
 function closeResumeModal() { const modal = document.getElementById('resume-modal'); if (modal) { modal.classList.remove('active'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; } }
-function downloadResume() { const link = document.createElement('a'); link.href = 'assets/Omkar_Sonpitre_Resume.pdf'; link.download = 'Omkar_Sonpitre_Resume.pdf'; document.body.appendChild(link); link.click(); link.remove(); closeResumeModal(); }
+function downloadResume() { const link = document.createElement('a'); link.href = 'assets/Ankit_Parsutkar_Resume.pdf'; link.download = 'Ankit_Parsutkar_Resume.pdf'; document.body.appendChild(link); link.click(); link.remove(); closeResumeModal(); }
 function openVideoModal(videoId, title) { let modal = document.getElementById('video-modal'); if (!modal) { modal = document.createElement('div'); modal.id = 'video-modal'; modal.className = 'modal-overlay'; modal.innerHTML = '<div class="video-modal-card"><button class="modal-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button><h3 id="video-modal-title"></h3><div class="video-frame"><iframe id="video-iframe" title="Video player" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div>'; document.body.appendChild(modal); modal.querySelector('.modal-close').addEventListener('click', closeVideoModal); modal.addEventListener('click', e => { if (e.target === modal) closeVideoModal(); }); } modal.querySelector('#video-iframe').src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`; modal.querySelector('#video-modal-title').textContent = title || 'Video'; modal.classList.add('active'); document.body.style.overflow = 'hidden'; }
 function closeVideoModal() { const modal = document.getElementById('video-modal'); if (modal) { modal.querySelector('#video-iframe').src = ''; modal.classList.remove('active'); document.body.style.overflow = ''; } }
 function openImageLightbox(src, caption) { const modal = document.getElementById('image-lightbox'); if (modal) { document.getElementById('lightbox-img').src = src; document.getElementById('lightbox-caption').textContent = caption || ''; modal.classList.add('active'); document.body.style.overflow = 'hidden'; } }
@@ -95,7 +95,7 @@ function handleContactSubmit(event) {
   const email = document.getElementById('contact-email').value.trim();
   const message = document.getElementById('contact-message').value.trim();
   const text = `New Portfolio Contact%0A%0AName: ${encodeURIComponent(name)}%0ACompany: ${encodeURIComponent(company)}%0AService: ${encodeURIComponent(service)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
-  window.open(`https://wa.me/918999667962?text=${text}`, '_blank', 'noopener');
+  window.open(`https://wa.me/919284323148?text=${text}`, '_blank', 'noopener');
   form.reset();
 }
 

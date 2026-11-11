@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Omkar Sonpitre - Personal Portfolio Stylesheet
+   Ankit Parsutkar - Digital Marketing Portfolio Stylesheet
    Theme: Obsidian Cinema Dark / Emerald & Cyan Glow
    Identity: Organic Marketer | Performance Marketer | Ad Creative Specialist
    ========================================================================== */
@@ -2573,3 +2573,28 @@ img { max-width: 100%; }
   .skills-wrapper { grid-template-columns: 1fr; }
   .work-tab { white-space: normal; line-height: 1.25; }
 }
+
+
+/* Resume-based static content */
+.experience-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;margin-top:1.5rem}
+.experience-card,.resume-highlight-card,.resume-work-card{background:var(--bg-card);border:1px solid var(--border-color);border-radius:var(--radius-md,18px);padding:1.35rem}
+.experience-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:.7rem}
+.experience-card h3,.resume-highlight-card h3,.resume-work-card h4{color:var(--text-primary);margin:0;font-size:1.05rem}
+.experience-company,.experience-card time{color:var(--text-secondary);font-size:.88rem;margin:.3rem 0 0}
+.experience-card time{white-space:nowrap;text-align:right}
+.experience-card ul{padding-left:1.15rem;margin:.8rem 0 0;color:var(--text-secondary)}
+.experience-card li{margin:.42rem 0;line-height:1.55}
+.education-awards-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1.2rem}
+.resume-highlight-label,.resume-work-metric{display:inline-block;color:var(--accent-cyan);font-weight:700;font-size:.82rem;letter-spacing:.04em;margin-bottom:.45rem}
+.resume-highlight-card p,.resume-work-card p,.service-card-content p{color:var(--text-secondary);font-size:.9rem;line-height:1.55;margin:.5rem 0 0}
+.resume-work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1.1rem}
+.resume-work-card{min-height:100%}
+.resume-work-card h4{margin:.1rem 0 .35rem}
+.resume-service-card{display:flex;align-items:flex-start;gap:1rem;text-align:left}
+.resume-service-card>i{flex:0 0 auto;color:var(--accent-cyan);font-size:1.35rem;margin-top:.15rem}
+.service-card-content h3{margin:0;font-size:1rem}
+.resume-contact-details{display:grid;gap:.35rem;margin:.7rem 0 1rem;color:var(--text-secondary)}
+.resume-contact-details p{margin:0;display:flex;align-items:center;gap:.55rem}
+.resume-contact-details i{color:var(--accent-cyan);width:1rem}
+@media(max-width:900px){.experience-grid{grid-template-columns:1fr}.education-awards-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.resume-work-grid,.education-awards-grid{grid-template-columns:1fr}.experience-card-head{display:block}.experience-card time{display:block;text-align:left;margin-top:.45rem}}
